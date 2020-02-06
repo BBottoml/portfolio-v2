@@ -11,8 +11,8 @@ export default class Sidebar extends Component {
     render() {
         return(
             <Menu>
-                <Link id="about" className="menu-item" href="/">Intro</Link>
-                <Link id="about" className="menu-item" href="/about">Projects</Link>
+                <Link id="intro" className="menu-item" to="/">Intro</Link>
+                <Link id="projects" className="menu-item" to="/projects">Projects</Link>
                 <Link id="contact" className="menu-item" href="/contact">Experience</Link>
                 <Link id="contact" className="menu-item" href="/contact">Contact</Link>
             </Menu>
