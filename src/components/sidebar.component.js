@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom'
 import './sidebar.css'
 
 export default class Sidebar extends Component {
-    showSettings (e) {
-        e.preventDefault();
-      }
 
     render() {
         return(
