@@ -1,3 +1,6 @@
 hr.landing {
     border-top: 1px solid #f5f6fa;
 }
+.img-thumbnail {
+    background-color: #353b48 !important;
+}
