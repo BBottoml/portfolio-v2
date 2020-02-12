@@ -1,6 +1,13 @@
 hr.landing {
     border-top: 1px solid #f5f6fa;
 }
+hr.landing2 {
+    border-top: 1px solid #487eb0;
+}
 .img-thumbnail {
     background-color: #353b48 !important;
+}
+.img-thumbnail-exp {
+    background-color: #353b48 !important;
+    border-color: #353b48 !important;
 }

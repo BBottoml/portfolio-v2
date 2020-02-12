@@ -12,8 +12,7 @@ const styles = {
   }
 
 export default class Landing extends Component {
-//                     <Image src="https://pbs.twimg.com/profile_images/1076288258898911232/xeOb3ikn_400x400.jpg" roundedCircle style={{width: "15%", height: "15", border: "2px solid #f5f6fa"}}/>
-
+    
     render() {
         return(
             <div className="moduleIntro">
@@ -38,9 +37,11 @@ export default class Landing extends Component {
                                 on my <a href="https://letterboxd.com/bbottoml/">Letterboxd account</a>!
                             </p>
                             <div className='text-center' style={{fontSize: "20px"}}>
+                                <a href="mailto:bottomlee@purdue.edu"><i class="fas fa-envelope"></i></a> &nbsp;
+
                                 <a href="https://twitter.com/bottomlee_b"><i class="fab fa-twitter"></i></a> &nbsp; 
                                 <a href="https://github.com/BBottoml"><i class="fab fa-github"></i></a> &nbsp;
-                                <a href="https://www.linkedin.com/in/bradleybottomlee/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/bradleybottomlee/"><i class="fab fa-linkedin-in"></i></a> 
                             </div>
                         </div>
                     </div>
