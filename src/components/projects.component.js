@@ -93,7 +93,7 @@ export default class Projects extends Component {
                                             rating data for each friend of a given user using the Beautiful Soup library and transforms the data
                                             using the Pandas library to compute a commonality score. Lastly, the program generates a 
                                             report using a PDF generator library illustrating the commonalities amongst friends. 
-                                            The technologies/languages used include Python, Beautiful Soup, Pandas, and PyFPD. <br />
+                                            The technologies/languages used include Python, Beautiful Soup, Pandas, and PyFPDF. <br />
                                             <a href="https://github.com/BBottoml/Letterboxd-friend-ranker">GitHub</a>
                                         </p>
                                     </Col>
