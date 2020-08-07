@@ -15,10 +15,9 @@ function App() {
       <Router>
         <Sidebar />
         <Route path = "/" exact component={Landing} /> 
-        <Route path = "/projects" component={Projects} />
         <Route path = "/experience" component={Experience} /> 
+        <Route path = "/projects" component={Projects} />
         <Route path = "/skills" component={Skills} /> 
-
       </Router>
     </HttpsRedirect>
   );

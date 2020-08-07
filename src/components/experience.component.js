@@ -36,21 +36,27 @@ export default class Experience extends Component {
                         <div style={styles.fadeInUp}>
                             <div className='container'>
                             <h2 style={{fontWeight: "150", fontSize: "40px"}}>CME Group</h2>
-                            <h3 style={{fontWeight: "150", fontSize: "30px"}}>Incoming Software Engineering Intern</h3>
+                            <h3 style={{fontWeight: "150", fontSize: "30px"}}>Software Engineering Intern (May 2020 - August 2020)</h3>
+                            <p align='justify'>
+                                • Worked on existing C++ risk engine used to hedge defaulted portfolios containing interest rate swaps, Eurodollar futures, and SOFR futures<br /> 
+                                • Developed AWS Lambda function for risk engine invoked per calculation request enabling near infinite scalability<br />                                 
+                                • Made <a href="https://github.com/awslabs/aws-lambda-cpp/tree/master/examples/api-gateway">open source contribution</a> to AWS Lambda C++ runtime library demonstrating use of library, API Gateway, and AWS C++ SDK<br /> 
+                                • Skills used: C++, Java, Boost, AWS (Lambda, EC2, S3), Jenkins, Terraform, gtest<br /> 
+                            </p>
                             <hr className='landing2'/>
                             <h2 style={{fontWeight: "150", fontSize: "40px"}}>Illinois Lending Corporation</h2>
-                            <h3 style={{fontWeight: "150", fontSize: "30px"}}>Software Engineer (Part-time)</h3>
+                            <h3 style={{fontWeight: "150", fontSize: "30px"}}>Software Engineer (Part-time) (January 2020 - May 2020)</h3>
                             <p align='justify'>
-                                • Use React.js to develop custom web application solutions for numerous divisions of the company such as management and underwriting<br /> 
-                                • Interface with and integrate custom RESTful APIs designed with C# and ASP.NET framework to dynamically generate insightful content<br /> 
-                                • Manage hosting resources using Microsoft Azure and practice continuous integration/development techniques
+                                • Used React.js and Node.js to develop lightweight web applications for numerous divisions of the company such as management and underwriting<br /> 
+                                • Integrated REST APIs designed with C# and .NET framework to dynamically generate insightful content<br /> 
+                                • Managed hosting resources using Microsoft Azure and practice continuous integration/development techniques
                             </p>
                             <hr className='landing2'/>
                             <h2 style={{fontWeight: "150", fontSize: "40px"}}>Purdue University Dept. of Computer Science</h2>
-                            <h3 style={{fontWeight: "150", fontSize: "30px"}}>Teaching Assistant</h3>
+                            <h3 style={{fontWeight: "150", fontSize: "30px"}}>Teaching Assistant &amp; Course Developer (January 2019 - Present)</h3>
                             <p align='justify'>
-                                • Lead lab sections and instruct first year computer science students in Java programming topics and problem solving<br />
-                                • Grade assignments, development coursework, and ensure proper communication with all involved parties
+                                • Lead lab sections and provide instruction to first year computer science students in Java programming topics and problem solving<br />
+                                • Grade assignments, develop coursework, and ensure proper communication with all involved parties
                             </p>
                             </div>
                         

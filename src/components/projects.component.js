@@ -91,12 +91,12 @@ export default class Projects extends Component {
                                         <Col>
                                             <h2 style={{fontWeight: "150", fontSize: "40px"}}>ShiftBot</h2>
                                             <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
-                                                ShiftBot was a SaaS service with users in 9 states that allowed Prime Now employees to sign up
+                                                ShiftBot was a SaaS service with users in 9 states that allowed Amazon Prime Now employees to sign up
                                                 for their desired shifts automatically. Each week, users would receive a form of all
                                                 the possible shifts in a week. They would select the ones they wanted, and I would pull the 
                                                 data and run a Python script to transform the data. From there, bot instances would launch each 
                                                 day and would constantly refresh until shifts were posted, at which point they would select the desired
-                                                ones. The core program was built in Python utilizing the Selenium library and shell scripting. <br /> 
+                                                ones. The core program was built in Python utilizing the Selenium library and bash scripting. <br /> 
                                                 <a href="https://shiftbot.org">Website</a>
                                             </p>
                                         </Col>

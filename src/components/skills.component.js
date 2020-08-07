@@ -37,12 +37,12 @@ export default class Skills extends Component {
                     <div className='container'>
                         <h2 style={{fontWeight: "150", fontSize: "40px"}}>Languages</h2>
                         <p align='justify'>
-                            Java - Python - Javascript - C - C++ - SQL - HTML/CSS
+                            C++ - C - Java - Python - Javascript - SQL - HTML/CSS
                         </p>
                         <hr className='landing2' /> 
-                        <h2 style={{fontWeight: "150", fontSize: "40px"}}>Technologies</h2>
+                        <h2 style={{fontWeight: "150", fontSize: "40px"}}>Technologies &amp; Tools</h2>
                         <p align='justify'>
-                            React.js - Node.js - Flask - MongoDB - MySQL - Selenium - Git - Azure - Heroku
+                            AWS (Lambda, EC2, S3, DynamoDB) - Azure - Boost - CMake - React.js - Node.js - Flask - MongoDB - MySQL - Git - Selenium
                         </p>
                     </div>
                 </div>
