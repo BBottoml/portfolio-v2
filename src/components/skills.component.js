@@ -42,7 +42,7 @@ export default class Skills extends Component {
                         <hr className='landing2' /> 
                         <h2 style={{fontWeight: "150", fontSize: "40px"}}>Technologies &amp; Tools</h2>
                         <p align='justify'>
-                            AWS (Lambda, EC2, S3, DynamoDB) - Azure - Boost - CMake - React.js - Node.js - Flask - MongoDB - MySQL - Git - Selenium
+                            AWS (Lambda, EC2, S3, DynamoDB) - Azure - Boost - STL - CMake - React.js - Node.js - Flask - MongoDB - MySQL - Git - Selenium
                         </p>
                     </div>
                 </div>

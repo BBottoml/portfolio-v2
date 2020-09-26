@@ -38,10 +38,11 @@ export default class Experience extends Component {
                             <h2 style={{fontWeight: "150", fontSize: "40px"}}>CME Group</h2>
                             <h3 style={{fontWeight: "150", fontSize: "30px"}}>Software Engineering Intern (May 2020 - August 2020)</h3>
                             <p align='justify'>
-                                • Worked on existing C++ risk engine used to hedge defaulted portfolios containing interest rate swaps, Eurodollar futures, and SOFR futures<br /> 
-                                • Developed AWS Lambda function for risk engine invoked per calculation request enabling near infinite scalability<br />                                 
-                                • Made <a href="https://github.com/awslabs/aws-lambda-cpp/tree/master/examples/api-gateway">open source contribution</a> to AWS Lambda C++ runtime library demonstrating use of library, API Gateway, and AWS C++ SDK<br /> 
-                                • Skills used: C++, Java, Boost, AWS (Lambda, EC2, S3), Jenkins, Terraform, gtest<br /> 
+                                • Worked on existing C++ risk engine used to hedge defaulted portfolios containing OTC and exchange-listed interest rate derivatives<br /> 
+                                • Developed AWS Lambda function allowing for 1000 concurrent risk engine calculation requests from an existing maximum of 23<br />
+                                • Modified Java Spring Boot web service layer to use new AWS infastructure and developed robust risk engine test suite using gtest<br />                                                                  
+                                • Made <a href="https://github.com/awslabs/aws-lambda-cpp/tree/master/examples/api-gateway">open source contribution</a> to AWS Lambda C++ Runtime Library demonstrating use of library, API Gateway, and AWS C++ SDK<br /> 
+                                • Skills used: C++, Java, Boost, STL, AWS (Lambda, API Gateway, EC2, S3), Jenkins, Terraform, gtest<br /> 
                             </p>
                             <hr className='landing2'/>
                             <h2 style={{fontWeight: "150", fontSize: "40px"}}>Illinois Lending Corporation</h2>
