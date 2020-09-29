@@ -51,7 +51,7 @@ export default class Projects extends Component {
                                             <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
                                                 PaperBot.io is a web application developed for the 2020 HackIllinois hackathon.  
                                                 PaperBot.io allows users to learn the ways of the market by enabling them to set conditions
-                                                that trigger buy-side and sell-side actions on equities all through a simple, intuitive interface.
+                                                that trigger buy and sell actions on equities all through a simple, intuitive interface.
                                                 The namesake is that the platform interfaces with Alpaca API to manage a paper trading account on 
                                                 the user's behalf. In other words, the platform is solely intended to be used as an educational tool
                                                 and not trade real money. The tech stack used included React.js, Flask, and Python. I worked primarily 
