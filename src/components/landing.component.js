@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 import './landing.css'
 import { fadeIn } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
@@ -36,7 +35,6 @@ export default class Landing extends Component {
                             <div className='text-center' style={{fontSize: "20px"}}>
                                 <a href="mailto:bottomlee@purdue.edu"><i class="fas fa-envelope"></i></a> &nbsp;
                                 <a href="https://github.com/BBottoml"><i class="fab fa-github"></i></a> &nbsp;
-                                <a href="https://www.linkedin.com/in/bradleybottomlee/"><i class="fab fa-linkedin-in"></i></a> 
                             </div>
                         </div>
                     </div>
