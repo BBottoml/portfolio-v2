@@ -28,9 +28,8 @@ export default class Landing extends Component {
                         <div className='container'>
                             <p align="justify" style={{fontSize: "20px"}}>
                                 Welcome to my portfolio! My name is Bradley, and I'm a third-year student at Purdue University 
-                                studying computer science and economics. My technical interests include distributed systems, serverless architecture,
-                                and low latency financial systems. Outside of technology and academics, I'm passionate 
-                                about film, television, and reading. View my favorite films on my <a href="https://letterboxd.com/bbottoml/">Letterboxd account</a>!
+                                studying computer science and economics. My technical interests include distributed systems, low-latency development, and serverless computing. 
+                                Outside of technology and academics, I'm passionate about film, television, and reading. View my favorite films on my <a href="https://letterboxd.com/bbottoml/">Letterboxd account</a>!
                             </p>
                             <div className='text-center' style={{fontSize: "20px"}}>
                                 <a href="mailto:bottomlee@purdue.edu"><i class="fas fa-envelope"></i></a> &nbsp;
