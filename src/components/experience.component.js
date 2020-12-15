@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { fadeIn, fadeInUp, fadeInDown } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import {PageView, initGA} from './Tracking/index';
+import ReactGA from "react-ga";
 import './landing.css';
 
 const styles = {
@@ -47,7 +48,8 @@ export default class Experience extends Component {
                                     • Worked on existing C++ risk engine used to hedge defaulted portfolios containing OTC and exchange-listed interest rate derivatives<br /> 
                                     • Developed AWS Lambda function allowing for 1000 concurrent risk engine calculation requests from an existing maximum of 23<br />
                                     • Modified Java Spring Boot web service layer to use new AWS infastructure and developed robust risk engine test suite using gtest<br />                                                                  
-                                    • Made <a href="https://github.com/awslabs/aws-lambda-cpp/tree/master/examples/api-gateway">open source contribution</a> to AWS Lambda C++ Runtime Library demonstrating use of library, API Gateway, and AWS C++ SDK<br /> 
+                                    • Made <ReactGA.OutboundLink eventLabel="ShiftBot" to="https://github.com/awslabs/aws-lambda-cpp/tree/master/examples/api-gateway">open source contribution</ReactGA.OutboundLink> 
+                                    &nbsp; to AWS Lambda C++ Runtime Library demonstrating use of library, API Gateway, and AWS C++ SDK<br /> 
                                     • Skills used: C++, Java, Boost, STL, AWS (Lambda, API Gateway, EC2, S3), Jenkins, Terraform, gtest<br /> 
                                 </p>
                                 <hr className='landing2'/>

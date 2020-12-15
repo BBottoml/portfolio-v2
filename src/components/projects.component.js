@@ -3,6 +3,7 @@ import { fadeIn, fadeInUp, fadeInDown } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import { Row, Image, Col} from 'react-bootstrap';
 import {PageView, initGA} from './Tracking/index';
+import ReactGA from "react-ga";
 import './landing.css';
 
 // import images
@@ -62,7 +63,7 @@ export default class Projects extends Component {
                                                 and not trade real money. The tech stack used included React.js, Flask, and Python. I worked primarily 
                                                 on the backend integrating OAuth, interfacing with Alpaca API to execute buy and sell orders, and developing
                                                 API endpoints for the frontend. <br />
-                                                <a href="https://github.com/BBottoml/PaperBot.io">GitHub</a>
+                                                <ReactGA.OutboundLink eventLabel="PaperBot.io" to="https://github.com/BBottoml/PaperBot.io">GitHub</ReactGA.OutboundLink> &nbsp;
                                             </p>
                                         </Col>
                                     </Row>
@@ -82,7 +83,8 @@ export default class Projects extends Component {
                                                 Bootstrap, HTML/CSS. I worked on the implementation of cookies, Flask routes, 
                                                 overarching logic, front-end design such as the dashboard, and integration of Spotify API in coordination
                                                 with teammates. <br />
-                                                <a href="https://github.com/Go4Mo/BeatQ">GitHub</a> | <a href="https://beatqio.herokuapp.com/">Website</a>
+                                                <ReactGA.OutboundLink eventLabel="BeatQ - GitHub" to="https://github.com/Go4Mo/BeatQ">GitHub</ReactGA.OutboundLink>
+                                                &nbsp;| <ReactGA.OutboundLink eventLabel="BeatQ - Website" to="https://beatqio.herokuapp.com/">Website</ReactGA.OutboundLink>
                                             </p>
                                         </Col>
                                     </Row>
@@ -102,7 +104,7 @@ export default class Projects extends Component {
                                                 data and run a Python script to transform the data. From there, bot instances would launch each 
                                                 day and would constantly refresh until shifts were posted, at which point they would select the desired
                                                 ones. The core program was built in Python utilizing the Selenium library and bash scripting. <br /> 
-                                                <a href="https://shiftbot.org">Website</a>
+                                                <ReactGA.OutboundLink eventLabel="ShiftBot" to="https://shiftbot.org/">ShiftBot</ReactGA.OutboundLink>
                                             </p>
                                         </Col>
                                     </Row>
@@ -122,7 +124,7 @@ export default class Projects extends Component {
                                                 using the Pandas library to compute a commonality score. Lastly, the program generates a 
                                                 report using a PDF generator library illustrating the commonalities amongst friends. 
                                                 The technologies/languages used include Python, Beautiful Soup, Pandas, and PyFPDF. <br />
-                                                <a href="https://github.com/BBottoml/Letterboxd-friend-ranker">GitHub</a>
+                                                <ReactGA.OutboundLink eventLabel="Letterboxd" to="https://github.com/BBottoml/Letterboxd-friend-ranker">GitHub</ReactGA.OutboundLink>
                                             </p>
                                         </Col>
                                     </Row>

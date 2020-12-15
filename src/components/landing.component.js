@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { fadeIn } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import {PageView, initGA} from './Tracking/index';
+import ReactGA from "react-ga";
 import './landing.css';
 
 const styles = {
@@ -35,11 +36,11 @@ export default class Landing extends Component {
                             <p align="justify" style={{fontSize: "20px"}}>
                                 Welcome to my portfolio! My name is Bradley, and I'm a third-year student at Purdue University 
                                 studying computer science and economics. My technical interests include distributed systems, low-latency development, and serverless computing. 
-                                Outside of technology and academics, I'm passionate about film, television, and reading. View my favorite films on my <a href="https://letterboxd.com/bbottoml/">Letterboxd account</a>!
+                                Outside of technology and academics, I'm passionate about film, television, and reading. View my favorite films on my <ReactGA.OutboundLink eventLabel="Letterboxd - Account" to="https://letterboxd.com/bbottoml/">Letterboxd account</ReactGA.OutboundLink>!
                             </p>
                             <div className='text-center' style={{fontSize: "20px"}}>
-                                <a href="mailto:bottomlee@purdue.edu"><i class="fas fa-envelope"></i></a> &nbsp;
-                                <a href="https://github.com/BBottoml"><i class="fab fa-github"></i></a> &nbsp;
+                                <ReactGA.OutboundLink eventLabel="Mail" to="mailto:bottomlee@purdue.edu"><i class="fas fa-envelope"></i></ReactGA.OutboundLink> &nbsp;
+                                <ReactGA.OutboundLink eventLabel="GitHub" to="https://github.com/BBottoml"><i class="fab fa-github"></i></ReactGA.OutboundLink> &nbsp;
                             </div>
                         </div>
                     </div>
