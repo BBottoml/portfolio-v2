@@ -1,13 +1,13 @@
-import React from 'react'
-import { BrowserRouter as Router, Route} from "react-router-dom"
-import HttpsRedirect from 'react-https-redirect'
+import React from 'react';
+import { BrowserRouter as Router, Route} from "react-router-dom";
+import HttpsRedirect from 'react-https-redirect';
 
 import './App.css';
-import Sidebar from './components/sidebar.component'
-import Landing from './components/landing.component'
-import Projects from './components/projects.component'
-import Experience from './components/experience.component'
-import Skills from './components/skills.component'
+import Sidebar from './components/sidebar.component';
+import Landing from './components/landing.component';
+import Projects from './components/projects.component';
+import Experience from './components/experience.component';
+import Skills from './components/skills.component';
 //import Clavius from './components/clavius.component'
 
 function App() {

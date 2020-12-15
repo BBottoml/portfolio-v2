@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { fadeIn } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
-import {PageView, initGA} from './components/Tracking';
+import {PageView, initGA} from './Tracking/index';
 import './landing.css';
 
 const styles = {

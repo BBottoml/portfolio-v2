@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { fadeIn, fadeInUp, fadeInDown } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import { Row, Image, Col} from 'react-bootstrap';
-import {PageView, initGA} from './components/Tracking';
+import {PageView, initGA} from './Tracking/index';
 import './landing.css';
 
 // import images
