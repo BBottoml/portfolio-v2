@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import { stack as Menu } from 'react-burger-menu'
-import { Link } from 'react-router-dom'
-import './sidebar.css'
+import React, { Component } from 'react';
+import { stack as Menu } from 'react-burger-menu';
+import { Link } from 'react-router-dom';
+import './sidebar.css';
 
 export default class Sidebar extends Component {
 
@@ -13,6 +13,8 @@ export default class Sidebar extends Component {
                 <Link id="contact" className="menu-item" to="/experience">Experience</Link>
                 <Link id="projects" className="menu-item" to="/projects">Projects</Link>
                 <Link id="contact" className="menu-item" to="/skills">Skills</Link>
+                {/*<hr className='landing2' /> 
+                <Link className="menu-item" to="/clavius">Clavius</Link>*/}
             </Menu>
         )
     }

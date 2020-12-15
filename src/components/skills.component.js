@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { fadeIn, fadeInUp, fadeInDown } from 'react-animations';
-import Radium, {StyleRoot} from 'radium'
-import './landing.css'
+import Radium, {StyleRoot} from 'radium';
+import {PageView, initGA} from './components/Tracking';
+import './landing.css';
 
 const styles = {
     fadeIn: {
@@ -19,10 +20,14 @@ const styles = {
   }
 
 export default class Skills extends Component {
-
+    componentDidMount() {
+        initGA('UA-158286562-1');
+        PageView();
+    }
 
     render() {
         return(
+            
             <div>
             <StyleRoot>
                 <div className='text-center' style={{paddingTop: "5%"}}>

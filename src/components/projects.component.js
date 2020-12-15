@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { fadeIn, fadeInUp, fadeInDown } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
-import { Row, Image, Col} from 'react-bootstrap'
-import './landing.css'
+import { Row, Image, Col} from 'react-bootstrap';
+import {PageView, initGA} from './components/Tracking';
+import './landing.css';
 
 // import images
-import beatq from '../images/beatq.png'
-import shiftbot from '../images/shiftbot.png'
-import lbox from '../images/lbox.png'
-import paperbot from '../images/paperbot.png'
+import beatq from '../images/beatq.png';
+import shiftbot from '../images/shiftbot.png';
+import lbox from '../images/lbox.png';
+import paperbot from '../images/paperbot.png';
 
 const styles = {
     fadeIn: {
@@ -26,6 +27,10 @@ const styles = {
   }
 
 export default class Projects extends Component {
+    componentDidMount() {
+        initGA('UA-158286562-1');
+        PageView();
+    }
 
     render() {
         return(

@@ -4,6 +4,9 @@ hr.landing {
 hr.landing2 {
     border-top: 1px solid #487eb0;
 }
+hr.landing3 {
+    border-top: 0.5px solid #487eb0;
+}
 .img-thumbnail {
     background-color: #353b48 !important;
 }

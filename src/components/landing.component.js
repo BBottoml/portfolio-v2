@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
-import './landing.css'
+import React, { Component } from 'react';
 import { fadeIn } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
+import {PageView, initGA} from './components/Tracking';
+import './landing.css';
 
 const styles = {
     fadeIn: {
@@ -11,6 +12,11 @@ const styles = {
   }
 
 export default class Landing extends Component {
+
+    componentDidMount() {
+        initGA('UA-158286562-1');
+        PageView();
+    }
     
     render() {
         return(
