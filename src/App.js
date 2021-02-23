@@ -8,7 +8,7 @@ import Landing from './components/landing.component';
 import Projects from './components/projects.component';
 import Experience from './components/experience.component';
 import Skills from './components/skills.component';
-//import Clavius from './components/clavius.component'
+import Cbpro from './components/cbpro.component'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         <Route path = "/experience" component={Experience} /> 
         <Route path = "/projects" component={Projects} />
         <Route path = "/skills" component={Skills} /> 
-        {/*<Route path = "/clavius" component={Clavius} />*/} 
+        <Route path = "/cbpro" component={Cbpro} />
       </Router>
     </HttpsRedirect>
   );

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import { fadeIn, fadeInUp, fadeInDown } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import { Row, Image, Col} from 'react-bootstrap';
@@ -11,6 +12,7 @@ import beatq from '../images/beatq.png';
 import shiftbot from '../images/shiftbot.png';
 import lbox from '../images/lbox.png';
 import paperbot from '../images/paperbot.png';
+import cbproimg from '../images/cbpro.png';
 
 const styles = {
     fadeIn: {
@@ -50,6 +52,21 @@ export default class Projects extends Component {
                             <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
                                     <Row>
                                         <Col>
+                                            <Image src={cbproimg} thumbnail style={{marginRight: "2%"}} />
+                                        </Col>
+                                        <Col>
+                                            <h2 style={{fontWeight: "150", fontSize: "40px"}}>cbpro++</h2>
+                                            <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
+                                                cbpro++ is a Coinbase Pro API client library for C++. To read more about this project, click below. <br />
+                                                <Link to="/cbpro">Read More</Link>
+                                            </p>
+                                        </Col>
+                                    </Row>
+                            </div>
+
+                            <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
+                                    <Row>
+                                        <Col>
                                             <Image src={paperbot} thumbnail style={{marginRight: "2%"}} />
                                         </Col>
                                         <Col>
@@ -67,69 +84,69 @@ export default class Projects extends Component {
                                             </p>
                                         </Col>
                                     </Row>
-                                </div>
-
-                                <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
-                                    <Row>
-                                        <Col>
-                                            <Image src={beatq} thumbnail style={{marginRight: "2%"}} />
-                                        </Col>
-                                        <Col>
-                                            <h2 style={{fontWeight: "150", fontSize: "40px"}}>BeatQ - DemonHacks 2nd place winner</h2>
-                                            <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
-                                                BeatQ is a web application that allows groups to seamlessly queue music by searching for their
-                                                desired songs and adding it to the party queue. I contributed to this project as part of a four person 
-                                                team at the DemonHacks hacakthon at DePaul University. The tech stack used included Flask, Python, 
-                                                Bootstrap, HTML/CSS. I worked on the implementation of cookies, Flask routes, 
-                                                overarching logic, front-end design such as the dashboard, and integration of Spotify API in coordination
-                                                with teammates. <br />
-                                                <ReactGA.OutboundLink eventLabel="BeatQ - GitHub" to="https://github.com/Go4Mo/BeatQ">GitHub</ReactGA.OutboundLink>
-                                                &nbsp;| <ReactGA.OutboundLink eventLabel="BeatQ - Website" to="https://beatqio.herokuapp.com/">Website</ReactGA.OutboundLink>
-                                            </p>
-                                        </Col>
-                                    </Row>
-                                </div>
-
-                                <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
-                                    <Row>
-                                        <Col>
-                                            <Image src={shiftbot} thumbnail style={{marginRight: "2%"}} />
-                                        </Col>
-                                        <Col>
-                                            <h2 style={{fontWeight: "150", fontSize: "40px"}}>ShiftBot</h2>
-                                            <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
-                                                ShiftBot was a SaaS service with users in 9 states that allowed Amazon Prime Now employees to sign up
-                                                for their desired shifts automatically. Each week, users would receive a form of all
-                                                the possible shifts in a week. They would select the ones they wanted, and I would pull the 
-                                                data and run a Python script to transform the data. From there, bot instances would launch each 
-                                                day and would constantly refresh until shifts were posted, at which point they would select the desired
-                                                ones. The core program was built in Python utilizing the Selenium library and bash scripting. <br /> 
-                                                <ReactGA.OutboundLink eventLabel="ShiftBot" to="https://shiftbot.org/">ShiftBot</ReactGA.OutboundLink>
-                                            </p>
-                                        </Col>
-                                    </Row>
-                                </div>
-                                
-                                <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
-                                    <Row>
-                                        <Col>
-                                            <Image src={lbox} thumbnail style={{marginRight: "2%"}} />
-                                        </Col>
-                                        <Col>
-                                            <h2 style={{fontWeight: "150", fontSize: "40px"}}>Letterboxd Friend Ranker</h2>
-                                            <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
-                                                Letterboxd Friend Ranker is a program for comparing film tastes amongst friends. Letterboxd allows
-                                                users to rank films and follow their friends to stay up-to-date. This program scrapes Letterboxd 
-                                                rating data for each friend of a given user using the Beautiful Soup library and transforms the data
-                                                using the Pandas library to compute a commonality score. Lastly, the program generates a 
-                                                report using a PDF generator library illustrating the commonalities amongst friends. 
-                                                The technologies/languages used include Python, Beautiful Soup, Pandas, and PyFPDF. <br />
-                                                <ReactGA.OutboundLink eventLabel="Letterboxd" to="https://github.com/BBottoml/Letterboxd-friend-ranker">GitHub</ReactGA.OutboundLink>
-                                            </p>
-                                        </Col>
-                                    </Row>
-                                </div>
                             </div>
+
+                            <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
+                                <Row>
+                                    <Col>
+                                        <Image src={beatq} thumbnail style={{marginRight: "2%"}} />
+                                    </Col>
+                                    <Col>
+                                        <h2 style={{fontWeight: "150", fontSize: "40px"}}>BeatQ - DemonHacks 2nd place winner</h2>
+                                        <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
+                                            BeatQ is a web application that allows groups to seamlessly queue music by searching for their
+                                            desired songs and adding it to the party queue. I contributed to this project as part of a four person 
+                                            team at the DemonHacks hacakthon at DePaul University. The tech stack used included Flask, Python, 
+                                            Bootstrap, HTML/CSS. I worked on the implementation of cookies, Flask routes, 
+                                            overarching logic, front-end design such as the dashboard, and integration of Spotify API in coordination
+                                            with teammates. <br />
+                                            <ReactGA.OutboundLink eventLabel="BeatQ - GitHub" to="https://github.com/Go4Mo/BeatQ">GitHub</ReactGA.OutboundLink>
+                                            &nbsp;| <ReactGA.OutboundLink eventLabel="BeatQ - Website" to="https://beatqio.herokuapp.com/">Website</ReactGA.OutboundLink>
+                                        </p>
+                                    </Col>
+                                </Row>
+                            </div>
+
+                            <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
+                                <Row>
+                                    <Col>
+                                        <Image src={shiftbot} thumbnail style={{marginRight: "2%"}} />
+                                    </Col>
+                                    <Col>
+                                        <h2 style={{fontWeight: "150", fontSize: "40px"}}>ShiftBot</h2>
+                                        <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
+                                            ShiftBot was a SaaS service with users in 9 states that allowed Amazon Prime Now employees to sign up
+                                            for their desired shifts automatically. Each week, users would receive a form of all
+                                            the possible shifts in a week. They would select the ones they wanted, and I would pull the 
+                                            data and run a Python script to transform the data. From there, bot instances would launch each 
+                                            day and would constantly refresh until shifts were posted, at which point they would select the desired
+                                            ones. The core program was built in Python utilizing the Selenium library and bash scripting. <br /> 
+                                            <ReactGA.OutboundLink eventLabel="ShiftBot" to="https://shiftbot.org/">ShiftBot</ReactGA.OutboundLink>
+                                        </p>
+                                    </Col>
+                                </Row>
+                            </div>
+                            
+                            <div style={{paddingLeft: "5%", paddingRight: "5%", paddingBottom: "2%"}}>
+                                <Row>
+                                    <Col>
+                                        <Image src={lbox} thumbnail style={{marginRight: "2%"}} />
+                                    </Col>
+                                    <Col>
+                                        <h2 style={{fontWeight: "150", fontSize: "40px"}}>Letterboxd Friend Ranker</h2>
+                                        <p align='justify' style={{fontWeight: "150", fontSize: "20px"}}>
+                                            Letterboxd Friend Ranker is a program for comparing film tastes amongst friends. Letterboxd allows
+                                            users to rank films and follow their friends to stay up-to-date. This program scrapes Letterboxd 
+                                            rating data for each friend of a given user using the Beautiful Soup library and transforms the data
+                                            using the Pandas library to compute a commonality score. Lastly, the program generates a 
+                                            report using a PDF generator library illustrating the commonalities amongst friends. 
+                                            The technologies/languages used include Python, Beautiful Soup, Pandas, and PyFPDF. <br />
+                                            <ReactGA.OutboundLink eventLabel="Letterboxd" to="https://github.com/BBottoml/Letterboxd-friend-ranker">GitHub</ReactGA.OutboundLink>
+                                        </p>
+                                    </Col>
+                                </Row>
+                            </div>
+                        </div>
                 </StyleRoot>
             </div>
         )
