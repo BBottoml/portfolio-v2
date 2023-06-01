@@ -45,21 +45,21 @@ export default class Experience extends Component {
                                 <h2 style={{fontWeight: "150", fontSize: "40px"}}>Morgan Stanley — New York, NY</h2>
                                 <h3 style={{fontWeight: "150", fontSize: "30px"}}>Technology Associate (August 2022 - May 2023)</h3>
                                 <p align='justify'>
-                                    • Core developer on fixed income pricing and risk team responsible for low-latency, real-time position and risk aggregation systems.<br /> 
-                                    • Spreadheaded design for reconciliation between slow (&gt;100ms) and fast trade feeds enabling quicker swaps risk publishing.<br />
-                                    • Led design and implementation for standalone latency sensitive position cache and risk service for MBS desk.<br />
-                                    • Overhauled and redesigned in-memory history manager used to track trades and risk records throughout system.<br />                                                                  
-                                    • Provided on-call support for systems owned by team and worked with global teams to swiftly resolve production issues.<br /> 
+                                    • Core developer on fixed income pricing and risk team responsible for low-latency, real-time position and risk aggregation systems<br /> 
+                                    • Spreadheaded design for reconciliation between slow (&gt;100ms) and fast trade feeds enabling quicker swaps risk publishing<br />
+                                    • Led design and implementation for standalone latency sensitive position cache and risk service for MBS desk<br />
+                                    • Overhauled and redesigned in-memory history manager used to track trades and risk records throughout system<br />                                                                  
+                                    • Provided on-call support for systems owned by team and worked with global teams to swiftly resolve production issues<br /> 
                                     • Skills used: C++, Java, Python, STL, Message-based architecture, Event-driven architecture<br /> 
                                 </p>
                                 <hr className='landing2'/>
                                 <h2 style={{fontWeight: "150", fontSize: "40px"}}>Morgan Stanley — New York, NY</h2>
                                 <h3 style={{fontWeight: "150", fontSize: "30px"}}>Summer/Fall/Spring Technology Analyst (June 2021 - May 2022)</h3>
                                 <p align='justify'>
-                                    • Core developer on fixed income pricing and risk team responsible for low-latency, real-time position and risk aggregation systems. <br /> 
-                                    • Decreased periodic ~30ms latency bottleneck to &lt;1ms by removing need to look at all maintained records.<br />
-                                    • Built suite of tools to interface with live instances of position aggregation system to rapidly diagnose and resolve production trade discrepancies.<br />
-                                    • Reviewed pull requests, proposed and implemented design changes, and communicated with numerous teams to understand requirements.<br />
+                                    • Core developer on fixed income pricing and risk team responsible for low-latency, real-time position and risk aggregation systems<br /> 
+                                    • Decreased periodic ~30ms latency bottleneck to &lt;1ms by removing need to look at all maintained records<br />
+                                    • Built suite of tools to interface with live instances of position aggregation system to rapidly diagnose and resolve production trade discrepancies<br />
+                                    • Reviewed pull requests, proposed and implemented design changes, and communicated with numerous teams to understand requirements<br />
                                     • Skills used: C++, Python, STL, Message-based architecture, Event-driven architecture<br /> 
                                 </p>
                                 <hr className='landing2'/>
@@ -83,10 +83,11 @@ export default class Experience extends Component {
                                 </p>
                                 <hr className='landing2'/>
                                 <h2 style={{fontWeight: "150", fontSize: "40px"}}>Purdue University Dept. of Computer Science — West Lafayette, IN</h2>
-                                <h3 style={{fontWeight: "150", fontSize: "30px"}}>Teaching Assistant &amp; Course Developer (January 2019 - Present)</h3>
+                                <h3 style={{fontWeight: "150", fontSize: "30px"}}>Teaching Assistant &amp; Course Developer (January 2019 - December 2020)</h3>
                                 <p align='justify'>
-                                    • Lead lab sections and provide instruction to first year computer science students in Java programming topics and problem solving<br />
-                                    • Grade assignments, develop coursework, and ensure proper communication with all involved parties
+                                    • Led lab sections and provided instruction to computer science students in programming topics and problem solving<br />
+                                    • Graded assignments, developed coursework, and ensured proper communication with all involved parties<br />
+                                    • Courses: Data Structures &amp; Algorithms (Summer '20), Problem Solving and OOP (Summer '19-Fall '20), Python Programming (Spring '19)
                                 </p>
                             </div>
                         
