@@ -26,7 +26,7 @@ export default class Landing extends Component {
                     <div style={styles.fadeIn}>
                         <div className='text-center' style={{paddingTop: "15%"}}>
                             <h1 style={{fontWeight: "150", fontSize: "60px"}}>Bradley Bottomlee</h1>
-                            <p style={{fontWeight: "150", fontSize: "20px"}}>CS student at Purdue University</p>
+                            <p style={{fontWeight: "150", fontSize: "20px"}}>Modern C++ Software Engineer</p>
                             <div className='container'>
                                 <hr className='landing' />
                             </div>
@@ -34,9 +34,9 @@ export default class Landing extends Component {
 
                         <div className='container'>
                             <p align="justify" style={{fontSize: "20px"}}>
-                                Welcome to my portfolio! My name is Bradley, and I'm a third-year student at Purdue University 
-                                studying computer science and economics. My technical interests include distributed systems, low-latency development, and serverless computing. 
-                                Outside of technology and academics, I'm passionate about film, television, and reading. View my favorite films on my <ReactGA.OutboundLink eventLabel="Letterboxd - Account" to="https://letterboxd.com/bbottoml/">Letterboxd account</ReactGA.OutboundLink>!
+                                Welcome to my portfolio! My name is Bradley and I'm a recent Purdue graduate currently seeking latency-driven, modern C++ roles. Despite this focus, I have a wide 
+                                range of technical interests (e.g., distributed systems, low-latency development) and love exploring the intersection beteween tech and finance. My professional
+                                experience has involved working closely with traders, strats, and developers in the fixed income space to develop performant, high-availability systems.
                             </p>
                             <div className='text-center' style={{fontSize: "20px"}}>
                                 <ReactGA.OutboundLink eventLabel="Mail" to="mailto:bottomlee@purdue.edu"><i class="fas fa-envelope"></i></ReactGA.OutboundLink> &nbsp;
