@@ -43,7 +43,7 @@ export default class Experience extends Component {
                         <div style={styles.fadeInUp}>
                             <div className='container'>
                                 <h2 style={{fontWeight: "150", fontSize: "40px"}}>Morgan Stanley — New York, NY</h2>
-                                <h3 style={{fontWeight: "150", fontSize: "30px"}}>Technology Associate (August 2022 - May 2023)</h3>
+                                <h3 style={{fontWeight: "150", fontSize: "30px"}}>Technology Associate (August 2022 - August 2023)</h3>
                                 <p align='justify'>
                                     • Core developer on fixed income pricing and risk team responsible for low-latency, real-time position and risk aggregation systems<br /> 
                                     • Spreadheaded design for reconciliation between slow (&gt;100ms) and fast trade feeds enabling quicker swaps risk publishing<br />
